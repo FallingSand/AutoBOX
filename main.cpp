@@ -28,8 +28,9 @@ string ask_mode_and_return(const string& ask) {
 int main() {
     printf("%s", about_ab_msg);
 
+    string answer;
     while (true) {
-        string answer = ask_mode_and_return(mode);
+        answer = ask_mode_and_return(mode);
 
         if (answer == "exit") {
             break;
@@ -37,6 +38,8 @@ int main() {
             printf("%s", about_ab_msg);
         } else if (answer == "cls") {
             system("cls");
+        } else {
+            cout << "Unknown input 未知的功能\n";
         }
 /*        switch (answer) {
             case "exit" :
