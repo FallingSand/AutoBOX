@@ -33,9 +33,13 @@ int main() {
             case "exit" :
                 break;
             case "aabm" :
+                printf("%s", about_ab_msg);
                 break;
             case "cls" :
+                system("cls");
                 break;
+            default :
+                cout << "Unknown input 未知的功能";
         }
     }
 
