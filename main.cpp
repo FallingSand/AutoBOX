@@ -8,11 +8,13 @@ using namespace std;
 
 const char *about_ab_msg = "AutoBOX console is a tool box for easily using computer\n"
                   "AutoBOX 命令行版本 是 一个让电脑使用更轻松的软件\n"
-                  "Developer : FallingSand / ";
+                  "Developer : FallingSand / \n";
 
 const char *mode = "exit : exit this program 退出本程序\n"
                    "aabm (about_auto_box_msg) : about this program 关于本程序\n"
-                   "cls (clear screen) : clear the screen 清空屏幕\n";
+                   "cls (clear screen) : clear the screen 清空屏幕\n"
+                   "\n"
+                   ">>>";
 
 string ask_mode_and_return(const string& ask) {
     string answer;
@@ -29,7 +31,14 @@ int main() {
     while (true) {
         string answer = ask_mode_and_return(mode);
 
-        switch (answer) {
+        if (answer == "exit") {
+            break;
+        } else if (answer == "aabm") {
+            printf("%s", about_ab_msg);
+        } else if (answer == "cls") {
+            system("cls");
+        }
+/*        switch (answer) {
             case "exit" :
                 break;
             case "aabm" :
@@ -40,7 +49,7 @@ int main() {
                 break;
             default :
                 cout << "Unknown input 未知的功能";
-        }
+        }*/
     }
 
     return 0;
