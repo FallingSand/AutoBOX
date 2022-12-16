@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/AutoBOX.dir/main.cpp.o  -o AutoBOX 
