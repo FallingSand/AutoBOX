@@ -1,4 +1,4 @@
-"E:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=E:/Program Files/JetBrains/CLion 2022.3/bin/ninja/win/ninja.exe" -G Ninja -S E:\Users\21128\Desktop\code\C++\AutoBOX -B E:\Users\21128\Desktop\code\C++\AutoBOX\cmake-build-debug
+"E:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=E:/Program Files/JetBrains/CLion 2022.3/bin/ninja/win/ninja.exe" -DCMAKE_CXX_FLAGS=--coverage -DCMAKE_C_FLAGS=--coverage -G Ninja -S E:\Users\21128\Desktop\code\C++\AutoBOX -B E:\Users\21128\Desktop\code\C++\AutoBOX\cmake-build-debug-
 -- The C compiler identification is GNU 11.2.0
 -- The CXX compiler identification is GNU 11.2.0
 -- Detecting C compiler ABI info
@@ -13,4 +13,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: E:/Users/21128/Desktop/code/C++/AutoBOX/cmake-build-debug
+-- Build files have been written to: E:/Users/21128/Desktop/code/C++/AutoBOX/cmake-build-debug-

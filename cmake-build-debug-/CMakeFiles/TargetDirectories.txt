@@ -1,0 +1,3 @@
+E:/Users/21128/Desktop/code/C++/AutoBOX/cmake-build-debug-/CMakeFiles/AutoBOX.dir
+E:/Users/21128/Desktop/code/C++/AutoBOX/cmake-build-debug-/CMakeFiles/edit_cache.dir
+E:/Users/21128/Desktop/code/C++/AutoBOX/cmake-build-debug-/CMakeFiles/rebuild_cache.dir
